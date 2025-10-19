@@ -1,4 +1,5 @@
 {
+  "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
   "git": {
     "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
   },
