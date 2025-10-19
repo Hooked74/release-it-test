@@ -6,7 +6,6 @@
     "after:bump": "npx auto-changelog -p"
   },
   "github": {
-    "release": true,
-    "skipChecks": true
+    "release": true
   }
 }
