@@ -1,17 +1,26 @@
 {
   "name": "release-it-test-hooked74",
-  "version": "2.8.0",
+  "version": "2.10.1-beta.342342.0",
+  "packageManager": "npm@11.6.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "semantic-release",
+    "build": "turbo run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
   "type": "commonjs",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "dependencies": {
-    "release-it": "^19.0.5"
+    "release-it": "^19.0.5",
+    "turbo": "^2.5.8"
   },
   "publishConfig": {
     "access": "public"
